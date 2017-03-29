@@ -114,7 +114,7 @@ class Autoloader {
             foreach ($environments as $environment) {
                 $realPath = $this->getRealPath($path, $map, $prefix, $environment);
                 $file = $this->addVendor($realPath);
-				if ($file) {
+                if ($file) {
                     return $file;
                 }
             }
