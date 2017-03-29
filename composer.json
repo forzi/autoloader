@@ -14,7 +14,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"stradivari\\autolader": ["src"]
+			"stradivari\\autolader\\": ["src"]
 		}
 	}
 }
