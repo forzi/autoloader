@@ -2,6 +2,8 @@
 
 namespace stradivari\autoloader;
 
+require_once __DIR__ . '/Autoloader.php';
+
 class EventAutoloader extends Autoloader {
     private $onAutoload;
 	
