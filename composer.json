@@ -12,6 +12,7 @@
             "role": "Owner, Developer"
         }
 	],
+	"minimum-stability": "dev",
 	"autoload": {
 		"psr-4": {
 			"stradivari\\autolader\\": ["src"]
