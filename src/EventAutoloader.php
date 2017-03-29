@@ -1,6 +1,6 @@
 <?php
 
-namespace stradivari/autoloader;
+namespace stradivari\autoloader;
 
 class EventAutoloader extends Autoloader {
     private $onAutoload;
