@@ -1,0 +1,20 @@
+{
+	"name": "stradivari/autoader",
+	"description": "class autoloader",
+	"version": "1.0.0",
+	"license": "GPL-3.0",
+	"keywords": ["class autooader", "autoloader", "spl_autoload_register", "spl_autoload_unregister"],
+	"authors": [
+        {
+            "name": "Alexey Penkov",
+            "email": "forziforzi@gmail.com",
+            "homepage": "https://github.com/forzi/",
+            "role": "Owner, Developer"
+        }
+	],
+	"autoload": {
+		"psr-4": {
+			"stradivari\\autolader": ["src"]
+		}
+	}
+}
